@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5331A8A2A21011200AF7933 /* trffic-light 3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E5331A892A21011200AF7933 /* trffic-light 3.mlmodel */; };
+		E584F4E52A17B74E00F843F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E584F4E42A17B74E00F843F7 /* AppDelegate.swift */; };
+		E584F4E72A17B74E00F843F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E584F4E62A17B74E00F843F7 /* SceneDelegate.swift */; };
+		E584F4E92A17B74E00F843F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E584F4E82A17B74E00F843F7 /* ViewController.swift */; };
+		E584F4EC2A17B74E00F843F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E584F4EA2A17B74E00F843F7 /* Main.storyboard */; };
+		E584F4EE2A17B74F00F843F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E584F4ED2A17B74F00F843F7 /* Assets.xcassets */; };
+		E584F4F12A17B74F00F843F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E584F4EF2A17B74F00F843F7 /* LaunchScreen.storyboard */; };
+		E584F4FB2A17BA2B00F843F7 /* SwitchZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E584F4FA2A17BA2B00F843F7 /* SwitchZoomView.swift */; };
+		E584F4FD2A17BA3500F843F7 /* SwitchZoomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E584F4FC2A17BA3500F843F7 /* SwitchZoomView.xib */; };
+		E584F5002A17BAA800F843F7 /* UIColor+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E584F4FF2A17BAA700F843F7 /* UIColor+Colors.swift */; };
+		E584F5032A17BC9000F843F7 /* CaptureSessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E584F5022A17BC9000F843F7 /* CaptureSessionController.swift */; };
+		E584F5062A17BCAF00F843F7 /* VideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E584F5052A17BCAE00F843F7 /* VideoPreviewView.swift */; };
+		E5EA9F622A1DB76F00D29DCB /* trffic-light 2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9F612A1DB76F00D29DCB /* trffic-light 2.mlmodel */; };
+		E5EC13EA2A1C41F700ADD20E /* trffic-light.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E5EC13E92A1C41F700ADD20E /* trffic-light.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5331A892A21011200AF7933 /* trffic-light 3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "trffic-light 3.mlmodel"; sourceTree = "<group>"; };
+		E584F4E12A17B74E00F843F7 /* trafficlight-objectdetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trafficlight-objectdetection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E584F4E42A17B74E00F843F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E584F4E62A17B74E00F843F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E584F4E82A17B74E00F843F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E584F4EB2A17B74E00F843F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E584F4ED2A17B74F00F843F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E584F4F02A17B74F00F843F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E584F4F22A17B74F00F843F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E584F4FA2A17BA2B00F843F7 /* SwitchZoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchZoomView.swift; sourceTree = "<group>"; };
+		E584F4FC2A17BA3500F843F7 /* SwitchZoomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchZoomView.xib; sourceTree = "<group>"; };
+		E584F4FF2A17BAA700F843F7 /* UIColor+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Colors.swift"; sourceTree = "<group>"; };
+		E584F5022A17BC9000F843F7 /* CaptureSessionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureSessionController.swift; sourceTree = "<group>"; };
+		E584F5052A17BCAE00F843F7 /* VideoPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPreviewView.swift; sourceTree = "<group>"; };
+		E5EA9F612A1DB76F00D29DCB /* trffic-light 2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "trffic-light 2.mlmodel"; sourceTree = "<group>"; };
+		E5EC13E92A1C41F700ADD20E /* trffic-light.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "trffic-light.mlmodel"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E584F4DE2A17B74E00F843F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E584F4D82A17B74E00F843F7 = {
+			isa = PBXGroup;
+			children = (
+				E584F4E32A17B74E00F843F7 /* trafficlight-objectdetection */,
+				E584F4E22A17B74E00F843F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E584F4E22A17B74E00F843F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E584F4E12A17B74E00F843F7 /* trafficlight-objectdetection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E584F4E32A17B74E00F843F7 /* trafficlight-objectdetection */ = {
+			isa = PBXGroup;
+			children = (
+				E584F50A2A18C4B000F843F7 /* mlmodel */,
+				E584F5042A17BCAE00F843F7 /* VideoPreview */,
+				E584F5012A17BC9000F843F7 /* CaptureSession */,
+				E584F4FE2A17BAA700F843F7 /* Extensions */,
+				E584F4F92A17BA1700F843F7 /* SwitchZoomView */,
+				E584F4E42A17B74E00F843F7 /* AppDelegate.swift */,
+				E584F4E62A17B74E00F843F7 /* SceneDelegate.swift */,
+				E584F4F82A17B9DA00F843F7 /* View */,
+				E584F4ED2A17B74F00F843F7 /* Assets.xcassets */,
+				E584F4EF2A17B74F00F843F7 /* LaunchScreen.storyboard */,
+				E584F4F22A17B74F00F843F7 /* Info.plist */,
+			);
+			path = "trafficlight-objectdetection";
+			sourceTree = "<group>";
+		};
+		E584F4F82A17B9DA00F843F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E584F4EA2A17B74E00F843F7 /* Main.storyboard */,
+				E584F4E82A17B74E00F843F7 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E584F4F92A17BA1700F843F7 /* SwitchZoomView */ = {
+			isa = PBXGroup;
+			children = (
+				E584F4FA2A17BA2B00F843F7 /* SwitchZoomView.swift */,
+				E584F4FC2A17BA3500F843F7 /* SwitchZoomView.xib */,
+			);
+			path = SwitchZoomView;
+			sourceTree = "<group>";
+		};
+		E584F4FE2A17BAA700F843F7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E584F4FF2A17BAA700F843F7 /* UIColor+Colors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E584F5012A17BC9000F843F7 /* CaptureSession */ = {
+			isa = PBXGroup;
+			children = (
+				E584F5022A17BC9000F843F7 /* CaptureSessionController.swift */,
+			);
+			path = CaptureSession;
+			sourceTree = "<group>";
+		};
+		E584F5042A17BCAE00F843F7 /* VideoPreview */ = {
+			isa = PBXGroup;
+			children = (
+				E584F5052A17BCAE00F843F7 /* VideoPreviewView.swift */,
+			);
+			path = VideoPreview;
+			sourceTree = "<group>";
+		};
+		E584F50A2A18C4B000F843F7 /* mlmodel */ = {
+			isa = PBXGroup;
+			children = (
+				E5EC13E92A1C41F700ADD20E /* trffic-light.mlmodel */,
+				E5EA9F612A1DB76F00D29DCB /* trffic-light 2.mlmodel */,
+				E5331A892A21011200AF7933 /* trffic-light 3.mlmodel */,
+			);
+			path = mlmodel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E584F4E02A17B74E00F843F7 /* trafficlight-objectdetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E584F4F52A17B74F00F843F7 /* Build configuration list for PBXNativeTarget "trafficlight-objectdetection" */;
+			buildPhases = (
+				E584F4DD2A17B74E00F843F7 /* Sources */,
+				E584F4DE2A17B74E00F843F7 /* Frameworks */,
+				E584F4DF2A17B74E00F843F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "trafficlight-objectdetection";
+			productName = text9;
+			productReference = E584F4E12A17B74E00F843F7 /* trafficlight-objectdetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E584F4D92A17B74E00F843F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E584F4E02A17B74E00F843F7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = E584F4DC2A17B74E00F843F7 /* Build configuration list for PBXProject "trafficlight-objectdetection" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E584F4D82A17B74E00F843F7;
+			productRefGroup = E584F4E22A17B74E00F843F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E584F4E02A17B74E00F843F7 /* trafficlight-objectdetection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E584F4DF2A17B74E00F843F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E584F4F12A17B74F00F843F7 /* LaunchScreen.storyboard in Resources */,
+				E584F4FD2A17BA3500F843F7 /* SwitchZoomView.xib in Resources */,
+				E584F4EE2A17B74F00F843F7 /* Assets.xcassets in Resources */,
+				E584F4EC2A17B74E00F843F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E584F4DD2A17B74E00F843F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5EC13EA2A1C41F700ADD20E /* trffic-light.mlmodel in Sources */,
+				E584F5062A17BCAF00F843F7 /* VideoPreviewView.swift in Sources */,
+				E584F4E92A17B74E00F843F7 /* ViewController.swift in Sources */,
+				E5EA9F622A1DB76F00D29DCB /* trffic-light 2.mlmodel in Sources */,
+				E584F4FB2A17BA2B00F843F7 /* SwitchZoomView.swift in Sources */,
+				E584F5002A17BAA800F843F7 /* UIColor+Colors.swift in Sources */,
+				E5331A8A2A21011200AF7933 /* trffic-light 3.mlmodel in Sources */,
+				E584F4E52A17B74E00F843F7 /* AppDelegate.swift in Sources */,
+				E584F4E72A17B74E00F843F7 /* SceneDelegate.swift in Sources */,
+				E584F5032A17BC9000F843F7 /* CaptureSessionController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E584F4EA2A17B74E00F843F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E584F4EB2A17B74E00F843F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E584F4EF2A17B74F00F843F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E584F4F02A17B74F00F843F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E584F4F32A17B74F00F843F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E584F4F42A17B74F00F843F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E584F4F62A17B74F00F843F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7459MG72K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "trafficlight-objectdetection/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = camera;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eenizuz.trafficlight-objectdetection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E584F4F72A17B74F00F843F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7459MG72K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "trafficlight-objectdetection/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = camera;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eenizuz.trafficlight-objectdetection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E584F4DC2A17B74E00F843F7 /* Build configuration list for PBXProject "trafficlight-objectdetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E584F4F32A17B74F00F843F7 /* Debug */,
+				E584F4F42A17B74F00F843F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E584F4F52A17B74F00F843F7 /* Build configuration list for PBXNativeTarget "trafficlight-objectdetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E584F4F62A17B74F00F843F7 /* Debug */,
+				E584F4F72A17B74F00F843F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E584F4D92A17B74E00F843F7 /* Project object */;
+}

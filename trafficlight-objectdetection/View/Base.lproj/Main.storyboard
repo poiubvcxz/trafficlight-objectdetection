@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="text9" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t3g-bz-VEC" customClass="VideoPreviewView" customModule="text9" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="79" width="393" height="524"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="t3g-bz-VEC" secondAttribute="height" multiplier="3:4" id="oZL-lj-Ou7"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vno-vo-8m3" customClass="SwitchZoomView" customModule="text9" customModuleProvider="target">
+                                <rect key="frame" x="116.66666666666669" y="466" width="160" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="1yh-7A-JMo"/>
+                                    <constraint firstAttribute="height" constant="60" id="npO-pf-d29"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68p-3S-Vla">
+                                <rect key="frame" x="0.0" y="556" width="393" height="262"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="9Zd-zl-gVi">
+                                        <rect key="frame" x="258" y="72" width="48" height="118"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5z-Bg-8Jp">
+                                                <rect key="frame" x="0.0" y="0.0" width="48" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UD3-EM-atQ">
+                                                <rect key="frame" x="0.0" y="94" width="48" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KakaoTalk_Photo_2023-05-25-17-57-43" translatesAutoresizingMaskIntoConstraints="NO" id="rKZ-PK-b9q">
+                                        <rect key="frame" x="70" y="56" width="100" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="rKZ-PK-b9q" secondAttribute="height" multiplier="2:3" id="1pg-0r-IaA"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="rKZ-PK-b9q" firstAttribute="leading" secondItem="68p-3S-Vla" secondAttribute="leading" constant="70" id="EUc-uo-l43"/>
+                                    <constraint firstItem="rKZ-PK-b9q" firstAttribute="top" secondItem="68p-3S-Vla" secondAttribute="top" constant="56" id="Nhb-hL-D4m"/>
+                                    <constraint firstItem="9Zd-zl-gVi" firstAttribute="centerY" secondItem="68p-3S-Vla" secondAttribute="centerY" id="Sfo-99-yez"/>
+                                    <constraint firstItem="rKZ-PK-b9q" firstAttribute="centerY" secondItem="68p-3S-Vla" secondAttribute="centerY" id="WQJ-MG-JIT"/>
+                                    <constraint firstAttribute="width" secondItem="68p-3S-Vla" secondAttribute="height" multiplier="3:2" id="aIe-xp-hkb"/>
+                                    <constraint firstAttribute="bottom" secondItem="rKZ-PK-b9q" secondAttribute="bottom" constant="56" id="g6R-XQ-aCE"/>
+                                    <constraint firstAttribute="trailing" secondItem="9Zd-zl-gVi" secondAttribute="trailing" constant="87" id="z3Y-I9-jka"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="t3g-bz-VEC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="63Q-We-DPh"/>
+                            <constraint firstItem="Vno-vo-8m3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="87Y-pH-aqt"/>
+                            <constraint firstItem="68p-3S-Vla" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Rzl-64-aTF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="68p-3S-Vla" secondAttribute="bottom" id="aIJ-uJ-Eil"/>
+                            <constraint firstItem="68p-3S-Vla" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fBH-uN-LG9"/>
+                            <constraint firstItem="68p-3S-Vla" firstAttribute="top" secondItem="Vno-vo-8m3" secondAttribute="bottom" constant="30" id="jVC-em-i7Z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t3g-bz-VEC" secondAttribute="trailing" id="ja2-Jq-xIf"/>
+                            <constraint firstItem="t3g-bz-VEC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lKM-BA-bSP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="68p-3S-Vla" secondAttribute="trailing" id="m2e-YX-Jny"/>
+                            <constraint firstItem="t3g-bz-VEC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wUb-Bs-iTc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="rKZ-PK-b9q" id="qx2-Xg-qKo"/>
+                        <outlet property="labelText" destination="a5z-Bg-8Jp" id="7ZU-JG-Dky"/>
+                        <outlet property="labelText2" destination="UD3-EM-atQ" id="raK-Gj-18Z"/>
+                        <outlet property="switchZoomView" destination="Vno-vo-8m3" id="xOh-QP-dgI"/>
+                        <outlet property="videoPreviewView" destination="t3g-bz-VEC" id="d0X-5F-Upk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57.251908396946561" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="KakaoTalk_Photo_2023-05-25-17-57-43" width="200" height="300"/>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
